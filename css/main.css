@@ -1,292 +1,199 @@
-.login {
-    padding-top: 40px;
-    padding-bottom: 40px;
-    background-color: #f5f5f5;
-		background-image: url(../img/sign-in-bground.jpg);
-		background-attachment:fixed;
-		background-position:center;
-		background-repeat:no-repeat;
-		background-size:cover;
-}
-.form-signin {
-  max-width: 330px;
-  padding: 15px;
-  margin: 0 auto;
-}
-.form-signin .form-signin-heading,
-.form-signin .checkbox {
-  margin-bottom: 10px;
-}
-.form-signin .checkbox {
-  font-weight: normal;
-}
-.form-signin .form-control {
-  position: relative;
-  font-size: 16px;
-  height: auto;
-  padding: 10px;
-  -webkit-box-sizing: border-box;
-     -moz-box-sizing: border-box;
-          box-sizing: border-box;
-}
-.form-signin .form-control:focus {
-  z-index: 2;
-}
-.form-signin input[type="email"] {
-  margin-bottom: -1px;
-  border-bottom-left-radius: 0;
-  border-bottom-right-radius: 0;
-}
-.form-signin input[type="password"] {
-  margin-bottom: 10px;
-  border-top-left-radius: 0;
-  border-top-right-radius: 0;
-}
 /*
- * Globals
- */
-
-/* Links */
-a,
-a:focus,
-a:hover {
-  color: #fff;
-}
-
-/* Custom default button */
-.btn-default,
-.btn-default:hover,
-.btn-default:focus {
-  color: #333;
-  text-shadow: none; /* Prevent inheritence from `body` */
-  background-color: #fff;
-  border: 1px solid #fff;
-}
-
-
-/*
- * Base structure
- */
-
-html,
-body {
-  height: 100%;
-  background-color: #333;
-	color:white;
-}
-body {
-  color: #fff;
-  text-align: center;
-  box-shadow: inset 0 0 100px rgba(0,0,0,.5);
-}
-
-/* Extra markup and styles for table-esque vertical and horizontal centering */
-.site-wrapper {
-  display: table;
-  width: 100%;
-  height: 100%; /* For at least Firefox */
-  min-height: 100%;
-}
-.site-wrapper-inner {
-  display: table-cell;
-  vertical-align: top;
-}
-.cover-container {
-  margin-left: auto;
-  margin-right: auto;
-}
-
-/* Padding for spacing */
-.inner {
-  padding: 30px;
-}
-
-
-/*
- * Header
- */
-.masthead-brand {
-  margin-top: 10px;
-  margin-bottom: 10px;
-}
-
-.masthead-nav > li {
-  display: inline-block;
-}
-.masthead-nav > li + li {
-  margin-left: 20px;
-}
-.masthead-nav > li > a {
-  padding-left: 0;
-  padding-right: 0;
-  font-size: 16px;
-  font-weight: bold;
-  color: #fff; /* IE8 proofing */
-  color: rgba(255,255,255,.75);
-  border-bottom: 2px solid transparent;
-}
-.masthead-nav > li > a:hover,
-.masthead-nav > li > a:focus {
-  background-color: transparent;
-  border-bottom-color: rgba(255,255,255,.25);
-}
-.masthead-nav > .active > a,
-.masthead-nav > .active > a:hover,
-.masthead-nav > .active > a:focus {
-  color: #fff;
-  border-bottom-color: #fff;
-}
-
-@media (min-width: 768px) {
-  .masthead-brand {
-    float: left;
-  }
-  .masthead-nav {
-    float: right;
-  }
-}
-
-
-/*
- * Cover
- */
-
-.cover {
-  padding: 0 20px;
-}
-.cover .btn-lg {
-  padding: 10px 20px;
-  font-weight: bold;
-}
-
-
-/*
- * Footer
- */
-
-.mastfoot {
-  color: #999; /* IE8 proofing */
-  color: rgba(255,255,255,.5);
-}
-
-
-/*
- * Affix and center
- */
-
-@media (min-width: 768px) {
-  /* Pull out the header and footer */
-  .masthead {
-    position: fixed;
-    top: 0;
-  }
-  .mastfoot {
-    position: fixed;
-    bottom: 0;
-  }
-  /* Start the vertical centering */
-  .site-wrapper-inner {
-    vertical-align: middle;
-  }
-  /* Handle the widths */
-  .masthead,
-  .mastfoot,
-  .cover-container {
-    width: 100%; /* Must be percentage or pixels for horizontal alignment */
-  }
-}
-
-@media (min-width: 992px) {
-  .masthead,
-  .mastfoot,
-  .cover-container {
-    width: 700px;
-  }
-}
-/*
- * Sidebar
- */
-
-/* Hide for mobile, show later */
-.sidebar {
-  display: none;
-	height: 100%;
-}
-@media (min-width: 768px) {
-  .sidebar {
-		min-height: 100%;
-    position: fixed;
-    top: 0;
-    left: 0;
-    bottom: 0;
-    z-index: 1000;
-    display: block;
-    padding: 70px 20px 20px;
-    background-color: #474747;
-    border-right: 1px solid #eee;
-  }
-}
-
-/* Sidebar navigation */
-.nav-sidebar {
-  margin-left: -20px;
-  margin-right: -21px; /* 20px padding + 1px border */
-  margin-bottom: 20px;
-}
-.nav-sidebar > li > a {
-  padding-left: 20px;
-  padding-right: 20px;
-	color: #39B54A;
-}
-.nav-sidebar > .active > a {
-  color: #fff;
-  background-color: #39B54A;
-}
-html, body, .container-fluid {
-		height: 100%
-}
-.row {
-		height: 100%;
-}
-.main {
-		height: 100%;
-		margin-top: 30px;
-		display: inline-block;
-}
-.folder {
-		padding: 2%;
-		margin: 2%;
-		float: left;
-}
-.folder:hover {
-		color:#5b5b5b;
-}
-textarea {
-		margin-top: 200px;
-		padding: 20%;
-}
-/*
-------------
-Visit twitterbootstrap.org for more tut 
--------------
+ Kristine Le & Rodya Perez
+ e-mail: krl009@ucsd.edu & rjperez@ucsd.edu
+ Cogs 187a: Assignment 4 Usability Evaluation
 */
 
-@import url('css/bootstrap.min.css');
-@import url('css/bootstrap-responsive.min.css');
-/* New styles */
-label {
-		color:white;
+@charset "utf-8";
+/*
+ -----------------------------
+ //   	GENERAL	  	  //
+------------------------------
+*/
+body {
+	font: 14px Helvetica, Arial, sans-serif;
+	color: #282828;
+	background: url('../images/linedpaper.png') repeat;
+	background-attachment: fixed;
 }
-label.valid {
-	width: 24px;
-	height: 24px;
-	background: url("img/valid.png") center center no-repeat;
-	display: inline-block;
-	text-indent: -9999px;
+
+*
+{
+  margin: 0 auto ;
+  }
+
+p,
+ul {
+	margin: 0 auto;
+	padding: 0;
+	
 }
-label.error {
-	font-weight: bold;
-	color: red;
-	padding: 2px 8px;
-	margin-top: 2px;
+p {
+	margin-bottom: 20px;
+	padding: 10px;
+	line-height: 200%;
+}
+h2{
+	font-size:23px;
+	font-family: 'Oswald';
+	text-transform: uppercase;
+	font-weight: 700;
+	letter-spacing: 3px;
+	color: #282828;
+	padding-bottom: 10px;
+}
+h3{
+	font-size:18px;
+	font-family: 'Oswald';
+	text-transform: uppercase;
+	font-weight: 400;
+	letter-spacing: 2px;
+	color: #012c51;
+}
+h4{
+	font-size:14px;
+	font-family: 'Oswald';
+	text-transform: uppercase;
+	font-weight: 400;
+	letter-spacing: 2px;
+	color: #000;
+}
+blockquote{
+	color:#282828;
+	font-size:18px;
+	font-family: 'Times New Roman';
+	font-style: italic;
+	width: 600px;
+	margin: 0 auto;
+	padding:20px;
+	border-left: 4px solid #3f3f3f;
+	background-color: #f7f7f7;
+}
+blockquote cite{
+	display: block;
+	margin-left: 425px;
+}
+
+/*
+----------------------------
+ // 	  LOGO	     //
+----------------------------
+*/
+#logo {
+	left: 7.2%;
+	margin: 0 auto;
+	position: fixed;
+	top: 55px;
+	height: 70px;
+	width:230px;
+}
+
+/*
+----------------------------
+ //   SIDE NAVIGATION     //
+----------------------------
+*/
+
+#nav {
+	left: 7.2%;
+	list-style: none;
+	position: fixed;
+	top: 150px;
+	float: left;
+}
+#nav li {
+	margin-bottom: 0px;
+	list-style: none;
+}
+#nav a {
+	background: url('../images/cardboard.png') repeat;
+	color: #282828;
+	display: block;
+	font-size: 11px;
+	padding: 10px;
+	text-decoration: none;
+	text-transform: uppercase;
+	width: 200px;
+	border-left: 5px solid #282828;
+	font-family: 'Oswald';
+	text-transform: uppercase;
+	letter-spacing: 1px;
+}
+#nav a:hover {
+	background: #e8573a;
+	border-left: 5px solid #282828;
+}
+#nav .current a {
+	background: #012c51;
+	color: #FFF;
+}
+#navheader{
+	background: #282828;
+	color: #FFF;
+	display: block;
+	font-size: 11px;
+	padding: 10px;
+	text-decoration: none;
+	text-transform: uppercase;
+	width: 200px;
+	border-left: 5px solid #282828;
+	font-family: 'Oswald';
+	text-transform: uppercase;
+	letter-spacing: 1px;
+}
+/*
+ -----------------------------
+ //   	CONTENT  	  //
+------------------------------
+*/
+#container {
+	margin-left: 20%;
+	background: url('../images/cardboard.png') repeat;
+	width: 900px;
+}
+.section {
+	border-bottom: 2px solid #717171;
+	padding: 50px;
+}
+.section p:last-child {
+	margin-bottom: 0;
+}
+#page{
+	width: 900px;
+	height:100%;
+	text-align: left;
+	border: 0px;
+	padding 0;
+	margin: 0 auto;
+}
+
+/*
+ -----------------------------
+ //   	SCROLL UP BUTTON   //
+------------------------------
+*/
+.scrollup{
+    width:70px;
+    height:70px;
+    opacity:0.9;
+    position:fixed;
+    bottom:50px;
+    right:100px;
+    display:none;
+    text-indent:-9999px;
+    background: url('../images/scrollup.png') no-repeat;
+}
+
+/*
+ -----------------------------
+ //   	SCREENSHOT MASK   //
+------------------------------
+*/
+.screenshot{
+	margin: 0 auto;
+	float: left;
+	padding-right: 20px;
+}
+.screenshot img {
+  -webkit-mask-image: url('../images/circlemask.png');
 }
