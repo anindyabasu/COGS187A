@@ -3,7 +3,7 @@
 <html>
 <head>
     <meta charset="utf-8">
-    <title>COGS 187A GSU Usability Evaluation</title>
+    <title>GSU Usability Evaluation</title>
     <meta name="COGS187A - Usability Evaluation" content="Sign Up">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <!-- Stylesheet -->
@@ -18,15 +18,48 @@
     <link href="css/social-buttons-3.css" rel="stylesheet">
     <!-- Extra Icons -->
     <link href="css/font-awesome.min.css" rel="stylesheet">
+    
 </head>
 
     <body>
-        a
+        <div class="container">
+        <ul id="nav">
+            <li class=""><a href="#">HOME</a></li>
+            <li> <div id="navheader" title="Click to expand :)">NEILSEN'S HEURESTICS <img src="images/arrow.png" alt="arrow"></div>
+        <ul>
+				
+        <li class="current"><a href="#section-2">1. Visibility of system status</a></li>
+				<li class=""><a href="#section-3">2. Match between system &amp; the real world</a></li>
+				<li><a href="#section-4">3. User control &amp; freedom</a></li>
+				<li class=""><a href="#section-5">4. Consistency &amp; standards</a></li>
+				<li><a href="#section-6">5. Error prevention</a></li>
+				<li><a href="#section-7">6. Recognition rather than recall</a></li>
+				<li><a href="#section-8">7. Flexibility &amp; efficiency of use</a></li>
+				<li><a href="#section-9">8. Aesthetic &amp; minimalist design</a></li>
+				<li><a href="#section-10">9. Help users recognize, diagnose, &amp; recover from errors</a></li>
+				<li><a href="#section-11">10. Help &amp; Documentation</a></li>
+			</ul>
+		</li><li><a href="#section-12"><strong>CONTRIBUTORS È</strong></a></li>
+	</ul>
+        </div>
+        
         <!-- Placed at the end of the document so the pages load faster -->
         <script src="js/main.js"></script>
         <script type="text/javascript" src="js/bootstrap.js"></script>
         <script type="text/javascript" src=js/jquery-1.9.0.min.js></script>
         <script type="text/javascript" src=js/jquery-1.10.1.min.js></script>
         <script src="js/jquery-1.10.2.min.js"></script>
+        <script>
+            $(document).ready(function() {
+                $('#nav').onePageNav({
+                    begin: function() {
+                        console.log('start')
+                    },
+                    end: function() {
+                      console.log('stop')
+                    }
+                });
+            });
+	</script>
     </body>
 </html>

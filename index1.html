@@ -1,0 +1,226 @@
+<html lang="en"><head>
+	<title>UIL | Usability Evaluation</title>
+	
+	<meta charset="utf-8">
+
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="shortcut icon" href="../favicon.ico">
+	<link href="http://fonts.googleapis.com/css?family=Oswald:400,700" rel="stylesheet" type="text/css">
+	<link rel="stylesheet" type="text/css" href="css/style.css">
+	<link href="css/lightbox.css" rel="stylesheet">
+	<script src="js/jquery.js"></script><style type="text/css"></style>
+	<script src="js/jquery.scrollTo.js"></script>
+	<script src="js/jquery.nav.js"></script>
+	<script src="js/lightbox.js"></script>
+	<script>
+	$(document).ready(function() {
+		$('#nav').onePageNav({
+			begin: function() {
+				console.log('start')
+			},
+			end: function() {
+				console.log('stop')
+			}
+		});
+	});
+	</script>
+</head>
+
+<body>
+	<div id="page">
+		<div id="logo">
+			<a href="#"><img src="images/gsulogo.png" alt="logo" width="128" height="90"></a>
+		</div>
+
+	<!-- --------------------------- -->
+	<!--       NAVIGATION BAR        -->
+	<!-- --------------------------- -->
+	<ul id="nav">
+		<li class=""><a href="#">HOME</a></li>
+		<li> <div id="navheader" title=" ">NEILSEN'S HEURESTICS <img src="images/arrow.png" alt="arrow"></div>
+			<ul>
+				<li class="current"><a href="#section-2">1. MENU 1</a></li>
+				<li class=""><a href="#section-3">2. MENU 2</a></li>
+				<li><a href="#section-4">3. menu 3</a></li>
+			</ul>
+		</li><li><a href="#section-12"><strong>CONTRIBUTORS È</strong></a></li>
+	</ul>
+
+	<!-- --------------------------- -->
+	<!-- THIS IS THE TOP OF THE PAGE -->
+	<!-- --------------------------- -->
+	<div id="container">
+		<img src="img/gsulogo.png" alt="header">
+	<div class="section" id="section-1">
+		<h4>INTRODUCTION</h4><br>
+		<h3>original website: LINK TO THE WEBSITE HERE</h3>
+		<h3>LINK TO HEURISTICS HERE</h3>
+	</div>
+	
+	
+	<div class="section" id="section-2">
+		<h2><strong>1. Visibility of system status</strong></h2>
+		<br>
+		<blockquote> "The system should always keep users informed about what is going on, through appropriate feedback within reasonable time."
+		<br> <cite><b>Ð Jakob Nielsen</b></cite></blockquote>
+		<br>
+		<p>DESCRIPTION OF PROBLEM</p>
+		<br>
+		<div class="screenshot">
+			<a href="images/largescreenshots/vis1.jpg" rel="lightbox[vis]"><img src="images/thumbnails/vist1.jpg" alt="v1"></a>
+		</div>
+		<h3>Ambiguity on the For Students Page</h3>
+		<p>Although, we are located on the "For Students" page, it is unclear for the user to identify what page they are on. Due to the multiple misleading titles (highlighted in blue), there is ambiguity as to what page you're actually on.  A user might assume that they are on the "UIAA News" page since the text stands out, so a better solution would be to have the title of the page appear in the box entitled "Insert System Visibility Here."</p>
+		<br>
+		<br>
+		<div class="screenshot">
+			<a href="images/largescreenshots/vis2.jpg" rel="lightbox[vis]"><img src="images/thumbnails/vist2.jpg" alt="v2"></a>
+		</div>
+		<h3>THE A-Z MYSTERY</h3>
+		<p> Although it may be obvious that one is at the A-Z index, the page is titled "Illinois DIrectory" which bears the exact same header title as the Directory page. It would feel more appropriate if the header title read, "Illinois A-Z Index" as opposed to having it listed as subscript in grey text. This way, it would be obvious that one was at the A-Z index directory. Another minor problem is the difficulty in seeing the dividing border on the navigation bar to the left. I have marked the border with a bolded red line to show how difficult it is to see the border separating the content. </p>
+		<br>
+		<br>
+		<br>
+		<div class="screenshot">
+			<a href="images/largescreenshots/vis3.jpg" rel="lightbox[reco]"><img src="images/thumbnails/vist3.jpg" alt="v3"></a>
+		</div>
+		<h3>THE OVERSHADOWED ACADEMICS PAGE</h3>
+		<p>Here we find ourselves on the "Academics" page, but the main title of the page is overshadowed by the bolded subtext, which is also a darker shade of blue. Although not a major issue, I would think that the title of the page would want to emphasized. </p>
+		<br>
+		<br>
+		<br>
+	</div>
+<!--
+	<div class="section" id="section-3">
+		<h2><strong>2. Match between system &amp; the real world</strong></h2>
+		<br>
+		<blockquote> "The system should speak the users' language, with words, phrases and concepts familiar to the user, rather
+		than system-oriented terms. Follow real-world conventions, making information appear in a natural and logical order."
+		<br> <cite><b>Ð Jakob Nielsen</b></cite></blockquote>
+		<br>
+		<p>It's important to stay away from terms that most users will not understand. A website should be designed in such a way that makes it easy for any user to be able to relate to it. The logic of the site should adhere to the rules and norms present in the outside world. Again, you don't want to scare away users with fancy words or an overly complex website. </p>
+		<br>
+		<div class="screenshot">
+			<a href="images/largescreenshots/match1.jpg" rel="lightbox[match]"><img src="images/thumbnails/matcht1.jpg" alt="m1"></a>
+		</div>
+		<h3>SO WHAT EXACTLY IS PUBLIC ENGAGEMENT?</h3>
+		<p>Public Engagement - Is a political term that is not really understood by normal users and is more catered to a political audience. And upon clicking "Public Engagement", it still remains unclear as to what exactly the University of Illinois is trying to get at. The boxed area is the closest thing to a mission statement, but it doesn't become fully clear until one clicks the "Engagement at Illinois" page, which should be renamed to "About Engagement at Illinois." I feel that it takes too much time and effort to figure out what is meant by Public Engagement. </p>
+		<br>
+		<br>
+		<div class="screenshot">
+			<a href="images/largescreenshots/match2.jpg" rel="lightbox[match]"><img src="images/thumbnails/matcht2.jpg" alt="m2"></a>
+		</div>
+		<h3>DID SOMEBODY SAY ACADEMIC EXCELLENCE?</h3>
+		<p>Found under the "About Us" page, the term "academic excellence" is vague at best, but implies that the University of Illinois prides itself in being a distinguished university in terms of academics. Thus, one would think that by clicking on the hypertext, you would be taken to a page where such boasting is confirmed or backed up. Instead you are linked to their "Academics" page, as opposed to being linked to their "Rankings" page, which would make more sense. </p>
+		<br>
+		<br>
+		<br>
+		<div class="screenshot">
+			<a href="images/largescreenshots/match3.jpg" rel="lightbox[match]"><img src="images/thumbnails/matcht3.jpg" alt="m3"></a>
+		</div>
+		<h3>THE MYSTERY OF EMAIL</h3>
+		<p> The e-mail link on the header is a vague term until one clicks on it. In no way does the "e-mail" link deal with the ability to email someone, but rather is a link that deals with the e-mail services offered by the University. A more appropriate name would be one that explicitly states the function of the link, like say, "Log-in to E-mail Services" or simply "E-mail Services."</p>
+		<br>
+		<br>
+		<br>
+		<div class="screenshot">
+			<a href="images/largescreenshots/match4.jpg" rel="lightbox[match]"><img src="images/thumbnails/matcht4.jpg" alt="m3"></a>
+		</div>
+		<h3>JUST HOW INCLUSIVE IS ILLINOIS REALY</h3>
+		<p> What exactly is meant by Inclusive Illinois... it's a distinct and specific name that most people will not get, and probably skip over. It's very vague and is probably only understood by a small percentage of people, alienating all users who are not "in the know."</p>
+		<br>
+		<br>
+		<br>
+	</div>
+
+	<div class="section" id="section-4">
+		<h2><strong>3. User control &amp; freedom</strong></h2>
+		<br>
+		<blockquote> "Users often choose system functions by mistake and will need a clearly marked "emergency exit"
+		to leave the unwanted state without having to go through an extended dialogue. Support undo and redo."
+		<br> <cite><b>Ð Jakob Nielsen</b></cite></blockquote>
+		<br>
+		<p>The user must always feel as if they are the captain of their ship. The user must always be in control of what happens on screen. Backseat driving should not be allowed. If you constantly are making decisions for your users, you will lose their trust, and they will not feel safe browsing your website. So remember to let your users feel as if they have ultimate control, make them feel as if they have a voice. </p>
+		<br>
+		<div class="screenshot">
+			<a href="images/largescreenshots/user1.jpg" rel="lightbox[user]"><img src="images/thumbnails/usert1.jpg" alt="u1"></a>
+		</div>
+		<h3>ILLINOIS TEACHES US TO BE PATIENT</h3>
+		<p>Upon entering the videos page, the video loads but does not play allowing the user to remain in control. Also take note of the text, which lets the user know in advance that it takes a little bit of time for the videos to load.</p>
+		<br>
+		<br>
+		<br>
+		<br>
+		<div class="screenshot">
+			<a href="images/largescreenshots/user2.jpg" rel="lightbox[user]"><img src="images/thumbnails/usert2.jpg" alt="u2"></a>
+		</div>
+		<h3>ILLINOIS TAKES OVER OUR BROWSER</h3>
+		<p>On a different note, clicking some text opens up new tabs, which takes away some power and control from the user. One such example is found on the home page when clicking the text below "A Minute With."</p>
+		<br>
+		<br>
+		<br>
+		<br>
+		<div class="screenshot">
+			<a href="images/largescreenshots/user3.jpg" rel="lightbox[user]"><img src="images/thumbnails/usert3.jpg" alt="u3"></a>
+		</div>
+		<h3>THE INCONSIDERATE GALLERY SLIDESHOW</h3>
+		<p>On the home page, there is no way for the user to control the gallery of rotating pictures. So in the event that a user wants to view a specific picture, but missed their chance, they have to wait for the picture to come up again. This may frustrate some users, which is never a good thing.</p>
+		<br>
+		<br>
+		<br>
+			<div class="screenshot">
+			<a href="images/largescreenshots/user4.jpg" rel="lightbox[user]"><img src="images/thumbnails/usert4.jpg" alt="u4"></a>
+		</div>
+		<h3>GOOD GUY GALLERY </h3>
+		<p>In contrast to the previous lack of user control, this gallery of pictures offers the ideal amount of user control. Users are given the ability to scroll through the gallery of pictures by either clicking the left or right arrows.</p>
+		<br>
+		<br>
+		<br>
+	</div>-->
+	
+	
+	
+	<div class="section" id="section-12">
+		<h2><strong>CONTRIBUTORS È</strong></h2>
+		<h3>KRISTINE LE | krl009@ucsd.edu &amp; RODYA PEREZ | rjperez@ucsd.edu</h3>
+	</div>    
+	
+	<!--Scroll Button-->
+	<a href="#" class="scrollup" style="display: none;">SCROLL</a>
+	
+	<!--Navigation Bar Accordion-->	
+		<script>
+			$("#nav > li > div").click(function(){
+		 
+		    if(false == $(this).next().is(':visible')) {
+			$('#nav ul').slideUp(350);
+		    }
+		    $(this).next().slideToggle(300);
+		});
+		 
+		$('#nav ul:eq(0)').show();
+		</script>
+		<!-- Scroll back to top script-->
+		<script type="text/javascript">
+		    $(document).ready(function(){ 
+		 
+			$(window).scroll(function(){
+			    if ($(this).scrollTop() > 100) {
+				$('.scrollup').fadeIn();
+			    } else {
+				$('.scrollup').fadeOut();
+			    }
+			}); 
+		 
+			$('.scrollup').click(function(){
+			    $("html, body").animate({ scrollTop: 0 }, 600);
+			    return false;
+			});
+		 
+		    });
+		</script>
+	</div>
+</div>
+
+
+<div id="lightboxOverlay" style="display: none;"></div><div id="lightbox" style="display: none;"><div class="lb-outerContainer"><div class="lb-container"><img class="lb-image"><div class="lb-nav"><a class="lb-prev"></a><a class="lb-next"></a></div><div class="lb-loader"><a class="lb-cancel"><img src="images/loading.gif"></a></div></div></div><div class="lb-dataContainer"><div class="lb-data"><div class="lb-details"><span class="lb-caption"></span><span class="lb-number"></span></div><div class="lb-closeContainer"><a class="lb-close"><img src="images/close.png"></a></div></div></div></div></body></html>
