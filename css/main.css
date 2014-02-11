@@ -194,3 +194,12 @@ blockquote cite{
 .screenshot img {
   -webkit-mask-image: url('../img/circlemask.png');
 }
+
+.failure{
+		border-left: 10px solid #FF3030;
+		padding-left: 10px;
+}
+.success{
+		border-left: 10px solid #50E650;
+		padding-left: 10px;
+}
