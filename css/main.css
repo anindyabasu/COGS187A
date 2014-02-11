@@ -178,7 +178,7 @@ blockquote cite{
     right:100px;
     display:none;
     text-indent:-9999px;
-    background: url('../images/scrollup.png') no-repeat;
+    background: url('../img/scrollup.png') no-repeat;
 }
 
 /*
@@ -192,5 +192,5 @@ blockquote cite{
 	padding-right: 20px;
 }
 .screenshot img {
-  -webkit-mask-image: url('../images/circlemask.png');
+  -webkit-mask-image: url('../img/circlemask.png');
 }
