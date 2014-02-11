@@ -1,0 +1,637 @@
+<!DOCTYPE HTML>
+<html lang="en"><head>
+	<title>GSU | Usability Evaluation</title>
+	
+	<meta charset="utf-8">
+	<link href='http://fonts.googleapis.com/css?family=Lato:300,700,300italic,400italic' rel='stylesheet' type='text/css'>
+	<link rel="stylesheet" type="text/css" href="css/main.css">
+	<link href="css/lightbox.css" rel="stylesheet">
+	<script src="js/jquery.js"></script><style type="text/css"></style>
+	<script src="js/jquery.scrollTo.js"></script>
+	<script src="js/jquery.nav.js"></script>
+	<link rel="stylesheet" href="js/source/jquery.fancybox.css?v=2.1.5" type="text/css" media="screen" />
+	<script type="text/javascript" src="js/source/jquery.fancybox.pack.js?v=2.1.5"></script>
+
+	<script type="text/javascript">
+		$(document).ready(function() {
+			$(".fancybox").fancybox();
+		});
+	</script>
+	<script>
+		$(document).ready(function() {
+			$('#nav').onePageNav({
+				begin: function() {
+				console.log('start')
+				},
+				end: function() {
+				console.log('stop')
+				}
+			});
+		});
+	</script>
+</head>
+
+<body>
+	<div id="page">
+		<div id="logo">
+			<br/>
+			<br/>
+			<br/>
+		</div>
+
+	
+	<!--       NAVIGATION BAR        -->
+	
+	<ul id="nav">
+		<li class=""><a href="#">HOME</a></li>
+		<li> <div id="navheader" title=" ">NEILSEN'S HEURESTICS <img src="img/arrow.png" alt="arrow"></div>
+			<ul>
+				<li class="current"><a href="#section-2">Visibility</a></li>
+				<li class=""><a href="#section-3">Match Between System and Real World</a></li>
+				<li><a href="#section-4">User Control and Freedom</a></li>
+				<li><a href="#section-5">Consistency and Standards</a></li>
+				<li><a href="#section-6">Error Prevention</a></li>
+				<li><a href="#section-7">Recognition Rather Than Recall</a></li>
+				<li><a href="#section-8">Flexibility and Efficiency Of Use</a></li>
+				<li><a href="#section-9">Aesthetic and Minimalist Design</a></li>
+				<li><a href="#section-10">Error Recovery</a></li>
+				<li><a href="#section-11">Help And Documentation</a></li>
+			</ul>
+		</li><li><a href="#section-12"><strong>AUTHORS</strong></a></li>
+	</ul>
+
+	
+	<!-- THIS IS THE TOP OF THE PAGE -->
+	
+	
+	
+	
+	<!-- BANNER IMAGE AND INTRODUCTION  -->
+	
+	<div id="container">
+		<img src="img/banner.jpg" alt="header">
+	<div class="section" id="section-1">
+		<h4>INTRODUCTION</h4><br>
+		<h3>original website: LINK TO THE WEBSITE HERE</h3>
+		<h3>LINK TO HEURISTICS HERE</h3>
+	</div>
+	
+	
+	
+	
+	<!-- BEGIN CONTENT DIV, START COPYING HERE -->
+	<!-- REMEMBER TO CHANCE THE SECTION NUMBER -->
+	<!-- TO LINK IT TO THE NAV BAR -->
+	<div class="section" id="section-2">
+		<h2><strong>Visibility</strong></h2>
+		<br>
+		<blockquote> "The system should always keep users informed about what is going on, through appropriate feedback within reasonable time."
+		<br> <cite><b>- Jakob Nielsen</b></cite></blockquote>
+		<br>
+		<p>Users need simple, obvious signage to alert them to where they are on a site, just like drivers need road signs to reassure them that they are where they
+		want to be, or at least are heading in the right direction. Site designers employ a range of tactics, from simple headings and subheadings to more complicated
+		color coding of unvisited versus visited links, to make the current system status and navigation options clear to the user. While the GSU site does make an effort
+		to alert users to their current status, many pages fail to clearly show the user all navigation options available to them, thus limiting the user's ability to
+		navigate through all areas of the site.</p>
+		<br>
+		<div class="failure">
+		<div class="screenshot">
+			<a class="fancybox" href="img/visibility_1_dark.jpg"><img src="img/visibility_1_light.jpg" alt=""></a>
+		</div>
+		<h3><strong>Global Navigation Bar? What's that?</strong></h3>
+		<p>
+			Several secondary pages do not readily show users the global navigation. Rather, these pages choose to hide the, what had been a global horizontal navigation,
+			into a vertical dropdown menu. When on undergraduate admission after selecting pages like "Admissions" from the home, global navigation users must find the
+			Georgia State button at the top to find the hidden global navigation.
+		</p>
+		<br>
+		</div>
+		<br>
+		<div class = "failure">
+		<div class="screenshot">
+			<a class="fancybox" href="img/visibility_2_dark.jpg"><img src="img/visibility_2_light.jpg" alt=""></a>
+		</div>
+		<h3><strong>I think it's a slider?</strong></h3>
+		<p>
+			The arrows on the homepage seem to be carrots/arrows that one might expect when seeing a Carousel or slider on the homepage of most sites. These carrots,
+			rather than slide to a new frame, slide the entire homepage to a new page named "Admissions and Campus Life." Concealing entire pages within a slider limits
+			the user's visibility of possibly valuable information to them. Ultimately,
+			obscuring information by requiring users to both notice the slider icon and click it introduces a chance that content will never reach the eyes of the user.
+		</p>
+		</div>
+		<br>
+		<br>
+	</div>
+	<!-- END CONTENT DIV HERE, END COPYING HERE -->
+	
+	
+	<!-- BEGIN CONTENT DIV, START COPYING HERE -->
+	<!-- REMEMBER TO CHANCE THE SECTION NUMBER -->
+	<!-- TO LINK IT TO THE NAV BAR -->
+	<div class="section" id="section-3">
+		<h2><strong>Match Between System and Real World</strong></h2>
+		<br>
+		<blockquote> "The system should speak the users' language, with words, phrases and concepts familiar to the user, rather than system-oriented terms. Follow real-world conventions, making information appear in a natural and logical order."
+		<br> <cite><b>- Jakob Nielsen</b></cite></blockquote>
+		<br>
+		<p>
+			A website must convey information to the user using language that the user understands and expects. If a user cannot find information they are looking for because the website uses unique or unusual naming conventions, then the developers
+			have failed to make their system match the real world, namely their users. A site should be simple enough to allow any user to understand it, and sophisticated enough to organize the information in a way that makes navigation straightforward.
+		</p>
+		<br>
+			<div class="failure">
+		<div class="screenshot">
+			<a class="fancybox" href="img/match_1_dark.jpg"><img src="img/match_1_light.jpg" alt=""></a>
+		</div>
+		<h3><strong>What is giving?</strong></h3>
+		<p>
+			Users should always have an idea of the page they are about to enter, however the GSU site often gives strange, unfamiliar names to their navigation items don't
+			clearly represent the content on the next page. Some menu options not only don't do a good job providing users with an idea of the next page, a few navigation
+			titles like "Giving" fail to match the titles of the pages they link to. As you can see, "Giving" is not the same as "Alumni Affairs."
+		</p>
+		<br>
+			</div>
+		<br>
+			<div class="failure">
+		<div class="screenshot">
+			<a class="fancybox" href="img/match_2_dark.jpg"><img src="img/match_2_light.jpg" alt=""></a>
+		</div>
+		<h3><strong>Duplicate Admissions Navigation Titles</strong></h3>
+		<p>
+			On the home page, users may be confused by the seemingly duplicate admissions pages. However, upon further inspection these similarly titled menu options link
+			to entirely different pages. It is never a good idea to create potential confusion for any user on a site by using similar navigation labeling for different
+			pages; users may find themselves in areas they never intended to visit.
+		</p>
+		<br>
+			</div>
+		<br>
+	</div>
+	<!-- END CONTENT DIV HERE, END COPYING HERE -->
+	
+	
+	
+	<!-- BEGIN CONTENT DIV, START COPYING HERE -->
+	<!-- REMEMBER TO CHANCE THE SECTION NUMBER -->
+	<!-- TO LINK IT TO THE NAV BAR -->
+	<div class="section" id="section-4">
+		<h2><strong>User Control and Freedom</strong></h2>
+		<br>
+		<blockquote> "Users often choose system functions by mistake and will need a clearly marked "emergency exit" to leave the unwanted state without having to go through an extended dialogue. Support undo and redo."
+		<br> <cite><b>- Jakob Nielsen</b></cite></blockquote>
+		<br>
+		<p>
+			While navigating a site, users often want to explore for a bit and then take a step or two back to return to where they started from. A site must allow users the
+			freedom to control their journey and site experience. In this, users need the freedom to mute sounds and halt animations should they desire peace and quiet.
+			While the GSU site does offer some freedom to users, like pausing sliding animation to allow the user to read information presented, they offer less freedom to
+			return from clicked links.
+		</p>
+		<br>
+			<div class="failure">
+		<div class="screenshot">
+			<a class="fancybox" href="img/freedom_1_dark.jpg"><img src="img/freedom_1_light.jpg" alt=""></a>
+		</div>
+		<h3><strong>The GIF Animation...Make it stop!</strong></h3>
+		<p>
+			There are no controls to stop the endless, and seemingly perpetually obnoxious, GIF on the Home page. GIF and animation that cycle endless on a page can annoy users
+			and often foster bad site experiences. It's always recommended to allow users to stop any animation so as to let them browse in peace.
+		</p>
+		<br>
+			</div>
+		<br>
+			<div class="success">
+		<div class="screenshot">
+			<a class="fancybox" href="img/freedom_2_dark.jpg"><img src="img/freedom_2_light.jpg" alt=""></a>
+		</div>
+		<h3><strong>I Have The Power!</strong></h3>
+		<p>
+			The slider on the bottom of the home page that features several upcoming events can be controlled when hovered over. When hovered the slider pauses its automatic sliding
+			to allow the viewer to read the content for the event shown.
+			<br/><br/><br/>
+		</p>
+		<br>
+			</div>
+		<br>
+			<div class="failure">
+		<div class="screenshot">
+			<a class="fancybox" href="img/freedom_3_dark.jpg"><img src="img/freedom_3_light.jpg" alt=""></a>
+		</div>
+		<h3><strong>The Link With No Return</strong></h3>
+		<p>
+			When selecting Athletics after navigating the global navigation and on the home page, the page abruptly enters an entirely new site that features the GSU sports
+			and athletics information. From here, there is no link back to the previous home page one was just visiting from any navigation option or the Georgia State logo.
+			This limitation on the user's ability to previous pages makes navigation a much more daunting task than it should be for those wishing to merely return Home. 
+		</p>
+		<br>
+			</div>
+		<br>
+	</div>
+	<!-- END CONTENT DIV HERE, END COPYING HERE -->
+	
+	<!-- BEGIN CONTENT DIV, START COPYING HERE -->
+	<!-- REMEMBER TO CHANCE THE SECTION NUMBER -->
+	<!-- TO LINK IT TO THE NAV BAR -->
+	<div class="section" id="section-5">
+		<h2><strong>Consistency and Standards</strong></h2>
+		<br>
+		<blockquote> "Users should not have to wonder whether different words, situations, or actions mean the same thing. Follow platform conventions."
+		<br> <cite><b>- Jakob Nielsen</b></cite></blockquote>
+		<br>
+		<p>
+			Consistent language and aesthetics within a site makes users feel secure, and conversely inconsistent language and layouts leads to frustrating and confusing experience.
+			Designers must be careful to keep their language consistent within a site. For instance, a link marked Alumni should take users to a page titled Alumni. By the same logic,
+			designers should present information to users in a visually pleasing and understandable manner by keeping their layouts and navigation consistent across their site.
+			Unfortunately, Georgia State fails to offer a consistent web experience to their users in several facets, such as insufficient Drop Down menus, varying navigation bars,
+			differing secondary page layouts, and out of date pages.
+		</p>
+		<br>
+			<div class="failure">
+		<div class="screenshot">
+			<a class="fancybox" href="img/inconsistent_1.2_dark.jpg"><img src="img/inconsistent_1.2_light.jpg" alt=""></a>
+		</div>
+		<h3><strong>Drop-Down Distress</strong></h3>
+		<p>
+			Navigation menus on both the home and secondary pages, like on Admissions, display several navigation options, but don't provide links under all navigation titles.
+			This can be misleading, as user might expect to see more information but will not be able to access it from these options. It's best to use similar dropdowns throughout
+			navigation titles to help viewers feel they have constant access to important navigational link.
+		</p>
+			</div>
+		<br>
+		<br>
+			<div class="failure">
+		<div class="screenshot">
+			<a class="fancybox" href="img/inconsistent_2_dark.jpg"><img src="img/inconsistent_2_light.jpg" alt=""></a>
+		</div>
+		<h3><strong>The Case of the Vanishing Vertical Navigation</strong></h3>
+		<p>
+			Many secondary pages introduce helpful navigations such as both horizontal and vertical navigation bars to empower user navigation. Unfortunately, the visual confirmation
+			that these double navigation bars offer users is hampered when 3rd level pages suddenly drop the vertical navigation bar all together. For example, the Colleges & Schools
+			pages does not use a vertical navigation like the Academics page directly before it. This inconsistency ultimately deprives users of useful navigation information.	
+		</p>
+			</div>
+		<br>
+		<br>
+			<div class="failure">
+		<div class="screenshot">
+			<a class="fancybox" href="img/inconsistent_3_dark.jpg"><img src="img/inconsistent_3_light.jpg" alt=""></a>
+		</div>
+		<h3><strong>That's So Last Year!</strong></h3>
+		<p>
+			After performing a search, one is directed to the GSU search page that uses a slightly different layout and logo. On closer inspection, one can see that the page is in fact
+			a year older from the rest of the main and secondary pages.
+			<br/><br><br/>
+		</p>
+		<br>
+	</div>
+			<br/>
+		<br>
+			<div class="failure">
+		<div class="screenshot">
+			<a class="fancybox" href="img/inconsistent_4_dark.jpg"><img src="img/inconsistent_4_light.jpg" alt=""></a>
+		</div>
+		<h3><strong>Hey Google, This Is Unexpected!</strong></h3>
+		<p>
+			When using the search in the top right hand corner of the screen, users might be directed to search engine on a GSU page or an entirely new, Google search page. The page isn't
+			actually Google, the url is lucia.gsu.edu although the rest of the page does appear to be a standard Google search page. This sudden, unexpected relocation to an unfamiliar
+			search site can be somewhat unsettling as some users may wonder if they are still actually on the GSU site. Additionally, these inconsistent search pages make the site feel
+			unprofessional and unreliable.
+		</p>
+			</div>
+		<br>
+		<br>
+	</div>
+	<!-- END CONTENT DIV HERE, END COPYING HERE -->
+	
+	<!-- BEGIN CONTENT DIV, START COPYING HERE -->
+	<!-- REMEMBER TO CHANCE THE SECTION NUMBER -->
+	<!-- TO LINK IT TO THE NAV BAR -->
+	<div class="section" id="section-6">
+		<h2><strong>Error Prevention</strong></h2>
+		<br>
+		<blockquote> "Even better than good error messages is a careful design which prevents a problem from occurring in the first place. Either eliminate error-prone conditions or check for them and present users with a confirmation option before they commit to the action."
+		<br> <cite><b>- Jakob Nielsen</b></cite></blockquote>
+		<br>
+		<p>
+			Errors are easiest to handle when they don't happen in the first place. Designers make sites more robust by including safeguards that limit a user's ability to make mistakes
+			when providing information and allow the user to fix erroneous information. Georgia State University does take several measures to prevent errors from user input, but their
+			checks could be more obvious and visible to users, especially when user's attempt to submit incomplete forms. 
+		</p>
+		<br>
+			<div class="success">
+		<div class="screenshot">
+			<a class="fancybox" href="img/prevention_1_dark.jpg"><img src="img/prevention_1_light.jpg" alt=""></a>
+		</div>
+		<h3><strong>Sorry Bub, You're Not Going Anywhere.</strong></h3>
+		<p>
+			When creating an account, the system will not move on to the next screen unless all fields are accurately filled in. The greyed-out and unresponsive "Continue" button implies
+			to viewers that the next page is inaccessible because of an incorrect field. This blocks users from having to restart the form and inputting all relevant input again. However,
+			this system could be improved upon by showing users exactly what field and type of information needs to be corrected before submitting the form.
+		</p>
+			</div>
+		<br>
+		<br>
+			<div class="success">
+		<div class="screenshot">
+			<a class="fancybox" href="img/prevention_2_dark.jpg"><img src="img/prevention_2_light.jpg" alt=""></a>
+		</div>
+		<h3><strong>Phone Number And Address Please!</strong></h3>
+		<p>
+			The fields provided on the "Panther Pad" page set limitations for the amount of information users can put in particular fields. For instance, the zip code field will only take
+			5 digits and anticipates a potential easy, thoughtless mistake, like putting in one to many numbers. This can also be seen in fields such as telephone number, where users are
+			restricted to three digit fields and even escorted to the next three-digit field automatically to avoid any formatting errors.
+		</p>
+			</div>
+		<br>
+		<br>
+	</div>
+	<!-- END CONTENT DIV HERE, END COPYING HERE -->
+	
+	<!-- BEGIN CONTENT DIV, START COPYING HERE -->
+	<!-- REMEMBER TO CHANCE THE SECTION NUMBER -->
+	<!-- TO LINK IT TO THE NAV BAR -->
+	<div class="section" id="section-7">
+		<h2><strong>Recognition Over Recall</strong></h2>
+		<br>
+		<blockquote> "Minimize the user's memory load by making objects, actions, and options visible. The user should not have to remember information from one part of the dialogue to another. Instructions for use of the system should be visible or easily retrievable whenever appropriate."
+		<br> <cite><b>- Jakob Nielsen</b></cite></blockquote>
+		<br>
+		<p>
+			Users should be able to quickly recognize where they are on a site via constant, obvious visual cues and labels. This said, it's best not to force users to recall previous
+			information to understand their current position. Developers often provide breadcrumbs to users in various visual forms that signal to the user what section and subsection
+			of the site they are visiting. The GSU website inconsistently offers primary and secondary navigation cues to users, sometimes making navigation options clear and obvious,
+			and other times forgoing these vital tools entirely.
+		</p>
+		<br>
+			<div class="success">
+		<div class="screenshot">
+			<a class="fancybox" href="img/recognition_1_dark.jpg"><img src="img/recognition_1_light.jpg" alt=""></a>
+		</div>
+		<h3><strong>Double Confirmation</strong></h3>
+		<p>
+			Some secondary pages from the GSU global navigation links provide users with both a horizontal global navigation bar as well as a vertical navigation bar on the left. Both
+			navigation bars provide visual confirmation by highlighting (in the case of the vertical navigation) and underlining (in the case of the horizontal navigation) the current
+			page the viewer is browsing. This clarity helps users quickly recognize what level of the general information architecture they are currently on and where they can go.
+			Here, the user can see they are on the Points of Distribution page within the About section.  
+		</p>
+		</div>
+		<br>
+		<br>
+			<div class="failure">
+		<div class="screenshot">
+			<a class="fancybox" href="img/recognition_2_dark.jpg"><img src="img/recognition_2_light.jpg" alt=""></a>
+		</div>
+		<h3><strong>Where are the breadcrumbs?</strong></h3>
+		<p>
+			There is no way to easily see and access previous pages on several third-level pages. Though the site is large and excessively intricate, this does not excuse the fact that
+			users are not provided quick cues to remember where they are where they have just been within the site. For example, pages like Graduate Admission have the tendency to impede
+			quick recognition by relying on a single navigation across the top. Here, users do not receive any real indication of how they reached this new site or how to return to the
+			previous page. To help limit the cognitive load on users, we recommend using breadcrumbs throughout the site to help users recognize and access where they've been while browsing. 
+		</p>
+		</div>
+		<br>
+		<br>
+			<div class="failure">
+		<div class="screenshot">
+			<a class="fancybox" href="img/recognition_3_dark.jpg"><img src="img/recognition_3_light.jpg" alt=""></a>
+		</div>
+		<h3><strong>So that's what this page is about?</strong></h3>
+		<p>
+			Additionally, the GSU site effectively uses titles and images on secondary pages. These images can be insightful for users, as the chosen images for most pages effectively
+			communicate the type of content the user can expect to encounter on the page. Here, the University Research  page suggests  the content's focus on science and anatomy for
+			viewers by providing a picture of the human body. In all, secondary pages give semantically related images and headlines to expedite the user's immediate understanding of a page. 
+		</p>
+			</div>
+		<br>
+		<br>
+	</div>
+	<!-- END CONTENT DIV HERE, END COPYING HERE -->
+	
+	<!-- BEGIN CONTENT DIV, START COPYING HERE -->
+	<!-- REMEMBER TO CHANCE THE SECTION NUMBER -->
+	<!-- TO LINK IT TO THE NAV BAR -->
+	<div class="section" id="section-8">
+		<h2><strong>Flexibility And Efficiency Of Use</strong></h2>
+		<br>
+		<blockquote> "Accelerators -- unseen by the novice user -- may often speed up the interaction for the expert user such that the system can cater to both inexperienced and experienced users. Allow users to tailor frequent actions."
+		<br> <cite><b>- Jakob Nielsen</b></cite></blockquote>
+		<br>
+		<p>
+			Websites should be easy for new users to navigate. Additionally, returning users should be able to navigate a site more efficiently than new users. Developers must consider
+			user actions like bookmarking often-visited pages, and therefore choose URLs that allow users to effectively bookmark their site. In this vein, sites may also offer past
+			users flexibility through quick access to previously search pages. Overall, the GSU site does a good job enabling returning users to swiftly refer to previous pages through
+			efficient search features. 
+		</p>
+		<br>
+			<div class="success">
+		<div class="screenshot">
+			<a class="fancybox" href="img/flexibility_1_dark.jpg"><img src="img/flexibility_1_light.jpg" alt=""></a>
+		</div>
+		<h3><strong>Are You Reading My Mind?</strong></h3>
+		<p>
+			When using the search bar at the top right hand corner on any page throughout the GSU site, users are aided by the helpful past searches feature. For instance, if a user
+			searched sports at some point and begins to type in the search again the search bar dropdown the past search of sports. This can be especially useful for users who tend
+			to navigate the site through the search function.
+		</p>
+		
+		<br>
+			</div>
+		<br>
+	</div>
+	<!-- END CONTENT DIV HERE, END COPYING HERE -->
+	
+	<!-- BEGIN CONTENT DIV, START COPYING HERE -->
+	<!-- REMEMBER TO CHANCE THE SECTION NUMBER -->
+	<!-- TO LINK IT TO THE NAV BAR -->
+	<div class="section" id="section-9">
+		<h2><strong>Aesthetics And Minimalist Design</strong></h2>
+		<br>
+		<blockquote> "Even better than good error messages is a careful design which prevents a problem from occurring in the first place. Either eliminate error-prone conditions or check for them and present users with a confirmation option before they commit to the action."
+		<br> <cite><b>- Jakob Nielsen</b></cite></blockquote>
+		<br>
+		<p>
+			Information on a site should be presented in a manner that is pleasing to the eyes and effectively categorized so that there is not too much (or too little) information shown
+			at once. Designers must be careful to show the user information in a way that is easy to see and quickly understand without overwhelming them with too much text. The Georgia
+			State website tends to present users with excessively large blocks of text on secondary and third level pages which in turn lead to an imbalance between white space and content,
+			as well as excessively cluttered and misaligned blocks of text. 
+		</p>
+		<br>
+			<div class="failure">
+		<div class="screenshot">
+			<a class="fancybox" href="img/minimal_1_dark.jpg"><img src="img/minimal_1_light.jpg" alt=""></a>
+		</div>
+		<h3><strong>Too Much White Space</strong></h3>
+		<p>
+			Several secondary pages throughout the site that include a vertical navigation bar often leave the page imbalanced with long blocks of text on one portion
+			of the screen and white space on the other. After navigating from the About page to the "Meet the President" page the side navigation shrinks, thus leaving much
+			of the space underneath it starkly empty compared to the large blocks of text text that run next to it. It's best to balance the page by organizing text into easy-to-read
+			chunks and columns so as to avoid overwhelming users with lengthy blocks of content. 
+		</p>
+			</div>
+		<br>
+		<br>
+			<div class="failure">
+		<div class="screenshot">
+			<a class="fancybox" href="img/minimal_2_dark.jpg"><img src="img/minimal_2_light.jpg" alt=""></a>
+		</div>
+		<h3><strong>Staggering Alignment</strong></h3>
+		<p>
+			Having an inconsistency among several different pages for a large, university website can generally be excused. However, GSU fails in several instances to simply pay heed to
+			simple layout properties, such as alignment or spacing, on even the same page. For instance, the 'News' page uses different sizes for news boxes and fails to align the bottom
+			of these boxes. These minor design flaws, however, pile up over time and from page to page, thus making the site seem inattentive and disorganized.
+		</p>
+			</div>
+		<br>
+		<br>
+	</div>
+	<!-- END CONTENT DIV HERE, END COPYING HERE -->
+	
+	<!-- BEGIN CONTENT DIV, START COPYING HERE -->
+	<!-- REMEMBER TO CHANCE THE SECTION NUMBER -->
+	<!-- TO LINK IT TO THE NAV BAR -->
+	<div class="section" id="section-10">
+		<h2><strong>Recovering From Errors</strong></h2>
+		<br>
+		<blockquote> "Error messages should be expressed in plain language (no codes), precisely indicate the problem, and constructively suggest a solution."
+		<br> <cite><b>- Jakob Nielsen</b></cite></blockquote>
+		<br>
+		<p>
+			Mistakes happen; that's a fact of life. Websites should be built account for the user's propensity for making minor simple errors by designing a site such that users can quickly
+			identify their mistakes and easily recover from their blunders. Designers must consider useful error messages that offer the user an easy solution, or at least a way out or back
+			from their error. The GSU site helps users correct invalidly submitted forms, and even provides a search bar to re-direct users after they attempt to access invalid URLs..
+		</p>
+		<br>
+			<div class="success">
+		<div class="screenshot">
+			<a class="fancybox" href="img/recovery_1_dark.jpg"><img src="img/recovery_1_light.jpg" alt=""></a>
+		</div>
+		<h3><strong>Page Not Found...Need Help?</strong></h3>
+		<p>
+			The Georgia State error page, that shows up for bad URLs and 404s do a  fairly good job directing users to the places they might be looking for. Though they don't provide any steps
+			or directions to help users find their desired page, the GSU error page does feature a noticeable search bar to help entice users to search for the page they might want to visit.
+		</p>
+		<br>
+		</div>
+		<br>
+		<br>
+			<div class="success">
+		<div class="screenshot">
+			<a class="fancybox" href="img/recovery_2_dark.jpg"><img src="img/recovery_2_light.jpg" alt=""></a>
+		</div>
+		<h3><strong>You Missed A Spot!</strong></h3>
+		<p>
+			When attempting to submit  a form that has mistakes or is invalid the site will keep users from sending the invalid page and even send users to the now clearly marked areas that
+			may have mistakes or were not filled out previously. As you can see, when attempting to create an account the fields now display informative red text next to required fields to
+			help users recover from mistakes and invalid responses. 
+		</p>
+		<br>
+		</div>
+		<br>
+		<br>
+	</div>
+	<!-- END CONTENT DIV HERE, END COPYING HERE -->
+	
+	<!-- BEGIN CONTENT DIV, START COPYING HERE -->
+	<!-- REMEMBER TO CHANCE THE SECTION NUMBER -->
+	<!-- TO LINK IT TO THE NAV BAR -->
+	<div class="section" id="section-11">
+		<h2><strong>Help And Documentation</strong></h2>
+		<br>
+		<blockquote> "Even though it is better if the system can be used without documentation, it may be necessary to provide help and documentation. Any such information should be easy to search, focused on the user's task, list concrete steps to be carried out, and not be too large."
+		<br> <cite><b>- Jakob Nielsen</b></cite></blockquote>
+		<br>
+		<p>
+			While a site should be designed so that users need minimal help to find what they are looking for and use the site effectively, help should never be too far away. The Georgia State
+			site generally equips their users with useful features, like a universal search bar and have a competent help center. Yet, users may have trouble locating help when they need it due
+			to the site's failure to make these Help options obvious on throughout all levels of the site.	
+		</p>
+		<br>
+			<div class="success">
+		<div class="screenshot">
+			<a class="fancybox" href="img/help_1_dark.jpg"><img src="img/help_1_light.jpg" alt=""></a>
+		</div>
+		<h3><strong>The Help Center Actually Helps!</strong></h3>
+		<p>
+			The help center combines a diverse amount of site information into a single page. Overall, the page is easy to search with because it uses both topic based search and class free-form
+			search. On top of that, the help center makes FAQ-like questions and concerns, contact information, and a question submission form up-front and obvious for users.
+		</p>
+		<br>
+		</div>
+		<br>
+		<br>
+			<div class="success">
+		<div class="screenshot">
+			<a class="fancybox" href="img/help_2_dark.jpg"><img src="img/help_2_light.jpg" alt=""></a>
+		</div>
+		<h3><strong>It's Easy as 1,2,3 - Video Tutorials</strong></h3>
+		<p>
+			All Frequently Asked Questions link to step-by-step instructions along with a brief instructional video to elucidate elusive solutions to confused users. The simplified step by step
+			directions are augmented by pictures that highlight relevant buttons and actions for each step of directions.
+		</p>
+		<br>
+		</div>
+		<br>
+		<br>
+			<div class="failure">
+		<div class="screenshot">
+			<a class="fancybox" href="img/help_3_dark.jpg"><img src="img/help_3_light.jpg" alt=""></a>
+		</div>
+		<h3><strong>Where Is This Help Center You Speak Of?</strong></h3>
+		<p>
+			Yet, the biggest issue is finding the Help Center page. It's not explicitly shown on the global navigation, rather it is buried away in the 'Students' or 'Faculties' dropdowns at the
+			top of the most pages near the search bar. Even the site index does not include a Help Center option. It may be better to offer a more apparent Help option throughout all pages.
+		</p>
+		<br>
+		</div>
+		<br>
+		<br>
+	</div>
+	<!-- END CONTENT DIV HERE, END COPYING HERE -->
+	
+	
+	
+	<div class="section" id="section-12">
+		<h2><strong>CONTRIBUTORS</strong></h2>
+		<h3 style="text-align: center">
+			ANINDYA BASU | abasu@ucsd.edu<br/>
+			OLIVIA LABRECH | olabrech@ucsd.edu<br/>
+			LUKE EBERLE | leberle@ucsd.edu
+		</h3>
+	</div>    
+	
+	<!--Scroll Button-->
+	<a href="#" class="scrollup" style="display: none;">SCROLL</a>
+	
+	<!--Navigation Bar Accordion-->	
+		<script>
+			$("#nav > li > div").click(function(){
+		 
+		    if(false == $(this).next().is(':visible')) {
+			$('#nav ul').slideUp(350);
+		    }
+		    $(this).next().slideToggle(300);
+		});
+		 
+		$('#nav ul:eq(0)').show();
+		</script>
+		<!-- Scroll back to top script-->
+		<script type="text/javascript">
+		    $(document).ready(function(){ 
+		 
+			$(window).scroll(function(){
+			    if ($(this).scrollTop() > 100) {
+				$('.scrollup').fadeIn();
+			    } else {
+				$('.scrollup').fadeOut();
+			    }
+			}); 
+		 
+			$('.scrollup').click(function(){
+			    $("html, body").animate({ scrollTop: 0 }, 600);
+			    return false;
+			});
+		 
+		    });
+		</script>
+	</div>
+</div>
+</body>
+</html>
