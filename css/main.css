@@ -1,7 +1,8 @@
 /*
- Kristine Le & Rodya Perez
- e-mail: krl009@ucsd.edu & rjperez@ucsd.edu
- Cogs 187a: Assignment 4 Usability Evaluation
+Anindya Basu, Olivia Castenada, Luke Eberle
+Base code from Kristine Le and Rodya Perez
+Found on COGS187A Example Page for this
+Assignment. 
 */
 
 @charset "utf-8";
@@ -20,7 +21,6 @@ body {
   margin: 0 auto ;
   }
 
-p,
 ul {
 	margin: 0;
 	padding: 0;
@@ -100,7 +100,7 @@ blockquote cite{
 	list-style: none;
 	position: fixed;
 	display: inline-block;
-	background-color: #f3f3f3;
+	background: white;
 	padding: 15px;
 	z-index: 1;
 }
@@ -111,13 +111,19 @@ blockquote cite{
 	text-align: center;
 }*/
 #nav a {
-	color: #282828;
+	color: black;
 	display: block;
-	font-size: 15px;
+/* THIS IS THE EM PART THAT WE NEED TO FIX */
+/* THIS IS THE SIZE OF THE ACTUAL TEXT IN THE MENU */
+	font-size: .5em;
+/* ------------------ */
 	padding: 10px;
 	text-decoration: none;
 	text-transform: uppercase;
-	width: 130px;
+/* THIS IS THE SPATIAL WIDTH OF EACH BUTTON/BOX THING*/
+/* THAT THE TEXT IS SITTING IN*/
+	width: 10em;
+/* ------------------ */
 	border-left: 5px solid #282828;
 	margin-left: -5px;
 	font-family: 'Lato';
@@ -127,10 +133,11 @@ blockquote cite{
 #nav a:hover {
 	background: #d7d7d7;
 	border-left: 5px solid #282828;
+	background: #f3f3f3;
 }
 #nav .current a {
 	background: #012c51;
-	color: #FFF;
+	color: white;
 }
 #navheader{
 	background: #282828;
@@ -156,15 +163,13 @@ blockquote cite{
 ------------------------------
 */
 #container {
-	margin-left: 10%;
+	margin-left: 0%;
 	width: 100%;
-	padding-left: 20px;
-	padding-right:20px;
-	background-color: #f5f5f5;
+	padding: 30px;
 }
 .section {
 	border-bottom: 5px solid #717171;
-	padding: 75px;
+	padding: 9%;
 }
 .section p:last-child {
 	margin-bottom: 0;
@@ -178,26 +183,8 @@ blockquote cite{
 	margin: 0 auto;
 }
 .bannerimage {
-		margin-left:10%;
-		width: 100%;
-		height: 300px;
-		/*background-image: url(../img/banner.jpg);*/
-}
-/*
- -----------------------------
- //   	SCROLL UP BUTTON   //
-------------------------------
-*/
-.scrollup{
-    width:70px;
-    height:70px;
-    opacity:0.9;
-    position:fixed;
-    bottom:50px;
-    right:100px;
-    display:none;
-    text-indent:-9999px;
-    background: url('../img/scrollup.png') no-repeat;
+		width:100%;
+		margin: auto;
 }
 
 /*
