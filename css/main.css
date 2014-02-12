@@ -171,6 +171,7 @@ blockquote cite{
 .section {
 	border-bottom: 5px solid #717171;
 	padding: 5%;
+	padding-top: 90px;
 }
 .section p:last-child {
 	margin-bottom: 0;
